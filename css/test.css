@@ -1,0 +1,61 @@
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 10% 60% 10%;
+   row-gap: 3rem;
+   column-gap : 1rem;
+   margin: 2.5rem ;
+}
+.QuotesGrid{
+   bottom: 15%;
+}
+.hidden{
+   display: none;
+}
+.login{
+   position: static;
+}
+.greetingFont{
+   text-align: right;
+   font-size: 1.5rem;
+}
+.clockFont{
+   font-size: 10rem;
+   text-align: center;
+}
+.mainFont{
+   color: white;
+}
+
+input {
+   border: none;
+   background: none;
+}
+input::placeholder {
+   color: white ;
+   font-style: italic;
+ }
+.dateFont{
+   color: white;
+   font-size: 2rem;
+   text-align: right;
+}
+.date{
+   position: relative;
+   top: 4rem;
+   right : 6rem;
+
+}
+ .absolute{
+   position :absolute;
+   top: 33%;
+   left: 33%;
+ }
+.clockOpacity{
+   opacity: 0;
+}
+.border{
+   border : solid;
+   color: white;
+
+}

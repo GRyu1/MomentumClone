@@ -1,0 +1,35 @@
+.hidden {
+   display : none;
+}
+.clockOpacity{
+   opacity : 0;
+}
+.mainFont{
+   font-family: 'Gamja Flower', cursive;
+   font-size : 10rem;
+}
+.center {
+   position:relative;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+ }
+
+ .bottom {
+   position: relative;
+   text-align: right;
+ }
+
+ .topRight{
+   position :absolute;
+   top : 1%;
+   right : 10%;
+   float: right;
+   text-align: left;
+
+ } 
+
+.fontGreeting{
+   font-family: 'Gamja Flower', cursive;
+   font: 2rem;
+}
